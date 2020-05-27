@@ -1,0 +1,49 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="https://github.com/jadc/sandbag/issues" #optional
+
+[[mods]] #mandatory
+
+modId="sandbag" #mandatory
+
+version="1.15.2-1.0.0" #mandatory
+
+displayName="Sandbag" #mandatory
+
+updateJSONURL="https://" #optional
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/sandbag" #optional
+
+logoFile="sandbag.png" #optional
+
+credits="" #optional
+
+authors="Jad Chehimi" #optional
+
+description='''
+Sandbag adds one mob: the Sandbag. 
+Modded Minecraft has many new weapons and mobs that inflict a variety of degrees of damage.
+It gets hard to keep track of!
+Therefore, hitting the Sandbag will display the numerical value of damage your weapon does.
+'''
+
+[[dependencies.sandbag]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+[[dependencies.sandbag]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
