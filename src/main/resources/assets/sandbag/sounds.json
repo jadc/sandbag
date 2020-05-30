@@ -1,0 +1,7 @@
+{
+    "strike": {
+      "category": "block",
+      "subtitle": "sandbag.subtitle.strike",
+      "sounds": [ "sandbag:strike" ]
+    }
+  }
