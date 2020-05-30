@@ -12,11 +12,9 @@ version="1.15.2-1.0.0" #mandatory
 
 displayName="Sandbag" #mandatory
 
-updateJSONURL="https://" #optional
-
 displayURL="https://www.curseforge.com/minecraft/mc-mods/sandbag" #optional
 
-logoFile="sandbag.png" #optional
+logoFile="sandbag-logo.png" #optional
 
 credits="" #optional
 
@@ -24,9 +22,8 @@ authors="Jad Chehimi" #optional
 
 description='''
 Sandbag adds one mob: the Sandbag. 
-Modded Minecraft has many new weapons and mobs that inflict a variety of degrees of damage.
-It gets hard to keep track of!
-Therefore, hitting the Sandbag will display the numerical value of damage your weapon does.
+As you add more mods to Minecraft, the growing quantity of weapons and mobs--all inflicting varying degrees of damage--gets a little hard to keep track of!
+The Sandbag's purpose is to remedy this issue: any damage the Sandbag endures will be display in its numerical value above it.
 '''
 
 [[dependencies.sandbag]] #optional

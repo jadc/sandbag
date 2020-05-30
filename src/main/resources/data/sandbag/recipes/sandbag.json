@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WSW",
+        "WSW",
+        "WSW"
+    ],
+    "key": {
+        "W": {
+            "tag": "minecraft:wool"
+        },
+        "S": {
+            "tag": "forge:sand"
+        }
+    },
+    "result": {
+        "item": "sandbag:sandbag"
+    }
+}
